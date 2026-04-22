@@ -152,7 +152,7 @@ header {
   margin-bottom: 10px;
 }
 
-.bloque-gris { background-color: #f9f9f9; }
+.bloque { background-color: #f9f9f9; }
 
 /* ----- TABLA TARJETAS ----- */
 .tabla-tarjetas {
@@ -252,6 +252,68 @@ header {
 
 .tabla-precios tr:nth-child(even) td { background-color: #f9f9f9; }
 .tabla-precios tr:hover td { background-color: #eaf4fb; }
+
+/* ----- TABLA COMPARACIÓN ----- */
+.tabla-comparacion {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.tabla-comparacion th {
+  background-color: #1a5276;
+  color: white;
+  padding: 11px 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.tabla-comparacion th:first-child {
+  background-color: #c0392b;
+}
+
+.tabla-comparacion th:last-child {
+  background-color: #1e8449;
+}
+
+.tabla-comparacion td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #dddddd;
+  color: #444444;
+  vertical-align: top;
+}
+
+.tabla-comparacion tr:nth-child(even) td { background-color: #f9f9f9; }
+.tabla-comparacion tr:hover td { background-color: #eaf4fb; }
+
+.tabla-comparacion td:first-child { color: #c0392b; }
+.tabla-comparacion td:last-child  { color: #1e8449; }
+
+/* ----- TABLA MÉTODOS ----- */
+.tabla-metodos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.tabla-metodos th {
+  background-color: #1a5276;
+  color: white;
+  padding: 11px 14px;
+  text-align: left;
+}
+
+.tabla-metodos td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #dddddd;
+  color: #444444;
+  vertical-align: top;
+}
+
+.tabla-metodos tr:nth-child(even) td { background-color: #f9f9f9; }
+.tabla-metodos tr:hover td { background-color: #eaf4fb; }
 
 /* ----- VIDEO ----- */
 .bloque iframe {

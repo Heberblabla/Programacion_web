@@ -2,188 +2,285 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="Agencia de Marketing Digital">
+        <meta name="description" content="Agencia de Marketing Digital - CreativeAds Studio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Marketing</title>
+        <title>Marketing | CreativeAds Studio</title>
         <link rel="stylesheet" href="estilos/Estilos_Marketing.css">
     </head>
 
     <body>
 
-        <!-- LOGO -->
-        <div class="empresa">
-            <img src="images/logo.png" class="logo">
-        </div>
-
+        <!-- HEADER -->
         <header>
-            <marquee behavior="alternate">
-                <h1 class="titulo">🚀 Marketing Digital Profesional 🚀</h1>
-            </marquee>
+            <table class="tabla-header">
+                <tr>
+                    <td>
+                        <span class="logo-icono">CA</span>
+                        <span class="logo-nombre">CreativeAds Studio</span>
+                    </td>
+                    <td class="td-nav">
+                        <a href="Principal.html" class="activo">Inicio</a>
+                        <a href="Diseño_y_artes_graficas.html">Diseño y Artes Gráficas</a>
+                        <a href="estudio_de_mercado.html">Estudios de Mercado</a>
+                        <a href="Marketing.html">Marketing</a>
+                        <a href="Merchandising.html">Merchandising</a>
+                    </td>
+                </tr>
+            </table>
         </header>
 
-        <div class="linea-roja"></div>
+        <!-- MARQUEE -->
+        <marquee class="barra-marquee">
+            ✦ Marketing Digital Profesional &nbsp;&nbsp;
+            ✦ Estrategias que generan resultados &nbsp;&nbsp;
+            ✦ Campañas personalizadas para tu marca &nbsp;&nbsp;
+            ✦ Consulta gratuita disponible &nbsp;&nbsp;
+        </marquee>
 
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#planes">Planes</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
+        <!-- BANNER -->
+        <table class="tabla-banner">
+            <tr>
+                <td class="banner-texto">
+                    <p class="banner-tag">Nuestros Servicios</p>
+                    <h1>Marketing Digital</h1>
+                    <p>
+                        Diseñamos estrategias que conectan tu marca con las personas correctas.<br />
+                        Más visibilidad, más clientes, más resultados.
+                    </p>
+                    <a href="#contacto" class="boton">Solicitar consulta gratis</a>
+                </td>
+                <td class="banner-imagen">
+                    <img src="imagenes/Marketing/marketing1.jpg" alt="Marketing Digital" />
+                </td>
+            </tr>
+        </table>
 
-        <img src="images/marketing1.jpg" class="banner">
+        <!-- CUERPO PRINCIPAL -->
+        <main>
 
-        <div class="container">
+            <!-- ¿CÓMO APLICAMOS EL MARKETING? -->
+            <div class="bloque" id="servicios">
+                <h2>¿Cómo aplicamos el Marketing?</h2>
+                <p>
+                    Nuestra empresa aplica estrategias de marketing enfocadas en atraer clientes,
+                    analizar el mercado y aumentar las ventas mediante campañas digitales.
+                </p>
 
-            <h2 id="servicios">¿Cómo aplicamos el Marketing?</h2>
-
-            <p>
-                Nuestra empresa aplica estrategias de marketing enfocadas en atraer clientes,
-                analizar el mercado y aumentar las ventas mediante campañas digitales.
-            </p>
-
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/N-Q5G1V1oyo" allowfullscreen></iframe>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/N-Q5G1V1oyo" allowfullscreen></iframe>
+                </div>
             </div>
 
-            <!-- TABLA CON IMÁGENES -->
-            <h2>Tipos de Marketing</h2>
+            <!-- TABLA TIPOS DE MARKETING -->
+            <div class="bloque">
+                <h2>Tipos de Marketing</h2>
+                <p>Conoce las estrategias que aplicamos para hacer crecer tu negocio:</p>
 
-            <table class="tabla">
-                <tr>
-                    <th>Tipo</th>
-                    <th>Imagen</th>
-                    <th>Descripción</th>
-                    <th>Ejemplo</th>
-                </tr>
-
-                <tr>
-                    <td>Marketing Digital</td>
-                    <td><img src="images/marketing2.jpg" class="img-tabla"></td>
-                    <td>Uso de internet y redes</td>
-                    <td>Facebook Ads</td>
-                </tr>
-
-                <tr>
-                    <td>Marketing de Contenido</td>
-                    <td><img src="images/marketing3.jpg" class="img-tabla"></td>
-                    <td>Creación de contenido</td>
-                    <td>Blogs</td>
-                </tr>
-
-                <tr>
-                    <td>Influencers</td>
-                    <td><img src="images/marketing4.jpg" class="img-tabla"></td>
-                    <td>Promoción con creadores</td>
-                    <td>Instagram</td>
-                </tr>
-
-                <tr>
-                    <td>SEO</td>
-                    <td><img src="images/marketing5.jpg" class="img-tabla"></td>
-                    <td>Posicionamiento web</td>
-                    <td>Google</td>
-                </tr>
-
-                <tr>
-                    <td>Tradicional</td>
-                    <td><img src="images/marketing6.jpg" class="img-tabla"></td>
-                    <td>Publicidad offline</td>
-                    <td>TV / Radio</td>
-                </tr>
-
-            </table>
-
-            <!-- PLANES 2x2 -->
-            <h2 id="planes">Planes de Marketing</h2>
-
-            <div class="planes">
-
-                <div class="plan">
-                    <h3>Básico</h3>
-                    <p class="precio">S/ 300</p>
-                    <ul>
-                        <li>Redes sociales</li>
-                        <li>3 publicaciones</li>
-                        <li>Diseño básico</li>
-                    </ul>
-                    <button class="btn">Contratar</button>
-                </div>
-
-                <div class="plan">
-                    <h3>Intermedio</h3>
-                    <p class="precio">S/ 600</p>
-                    <ul>
-                        <li>Publicidad digital</li>
-                        <li>5 publicaciones</li>
-                        <li>Análisis básico</li>
-                    </ul>
-                    <button class="btn">Contratar</button>
-                </div>
-
-                <div class="plan destacado">
-                    <h3>Avanzado</h3>
-                    <p class="precio">S/ 900</p>
-                    <ul>
-                        <li>Campañas completas</li>
-                        <li>Optimización</li>
-                        <li>Segmentación</li>
-                    </ul>
-                    <button class="btn">Recomendado</button>
-                </div>
-
-                <div class="plan">
-                    <h3>Pro</h3>
-                    <p class="precio">S/ 1500</p>
-                    <ul>
-                        <li>Gestión total</li>
-                        <li>Estrategias avanzadas</li>
-                        <li>Consultoría</li>
-                    </ul>
-                    <button class="btn">Solicitar</button>
-                </div>
-
+                <table class="tabla-precios">
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Imagen</th>
+                        <th>Descripción</th>
+                        <th>Ejemplo</th>
+                    </tr>
+                    <tr>
+                        <td>Marketing Digital</td>
+                        <td><img src="imagenes/Marketing/marketing2.jpg" class="img-tabla"></td>
+                        <td>Uso de internet y redes sociales para llegar a más personas.</td>
+                        <td>Facebook Ads</td>
+                    </tr>
+                    <tr>
+                        <td>Marketing de Contenido</td>
+                        <td><img src="imagenes/Marketing/marketing3.jpg" class="img-tabla"></td>
+                        <td>Creación de contenido útil para atraer y fidelizar clientes.</td>
+                        <td>Blogs, YouTube</td>
+                    </tr>
+                    <tr>
+                        <td>Influencers</td>
+                        <td><img src="imagenes/Marketing/marketing4.jpg" class="img-tabla"></td>
+                        <td>Promoción con creadores de contenido con audiencia fiel.</td>
+                        <td>Instagram</td>
+                    </tr>
+                    <tr>
+                        <td>SEO</td>
+                        <td><img src="imagenes/Marketing/marketing5.jpg" class="img-tabla"></td>
+                        <td>Optimización para aparecer primero en buscadores.</td>
+                        <td>Google</td>
+                    </tr>
+                    <tr>
+                        <td>Tradicional</td>
+                        <td><img src="imagenes/Marketing/marketing6.jpg" class="img-tabla"></td>
+                        <td>Publicidad offline con impacto masivo y probado.</td>
+                        <td>TV / Radio</td>
+                    </tr>
+                </table>
             </div>
 
-            <!-- FORM -->
-            <h2 id="contacto">Contáctanos</h2>
+            <!-- ESPECIALIDADES -->
+            <div class="bloque bloque-gris" id="especialidades">
+                <h2>Nuestras Especialidades</h2>
+                <p>Contamos con expertos en cada área del marketing digital para impulsar tu negocio:</p>
 
-            <form onsubmit="return falsoEnvio()">
+                <table class="tabla-especialidades">
+                    <tr>
+                        <td class="especialidad">
+                            <div class="esp-icono">🔍</div>
+                            <h3>SEO & Posicionamiento</h3>
+                            <p>Optimizamos tu sitio web para que aparezca en los primeros resultados de Google y atraigas clientes de forma orgánica.</p>
+                            <a href="#contacto" class="boton-plan">Consultar</a>
+                        </td>
+                        <td class="especialidad">
+                            <div class="esp-icono">📱</div>
+                            <h3>Redes Sociales</h3>
+                            <p>Gestionamos tus perfiles en Facebook, Instagram, TikTok y más, con contenido estratégico que genera comunidad y ventas.</p>
+                            <a href="#contacto" class="boton-plan">Consultar</a>
+                        </td>
+                        <td class="especialidad">
+                            <div class="esp-icono">📧</div>
+                            <h3>Email Marketing</h3>
+                            <p>Diseñamos campañas de correo personalizadas que mantienen a tus clientes informados y listos para comprar.</p>
+                            <a href="#contacto" class="boton-plan">Consultar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="especialidad">
+                            <div class="esp-icono">🎯</div>
+                            <h3>Publicidad Digital (SEM)</h3>
+                            <p>Creamos y gestionamos campañas en Google Ads y Meta Ads para llegar exactamente al público que necesitas.</p>
+                            <a href="#contacto" class="boton-plan">Consultar</a>
+                        </td>
+                        <td class="especialidad">
+                            <div class="esp-icono">✍️</div>
+                            <h3>Marketing de Contenido</h3>
+                            <p>Producimos blogs, videos y recursos que posicionan tu marca como referente en tu industria y atraen tráfico de calidad.</p>
+                            <a href="#contacto" class="boton-plan">Consultar</a>
+                        </td>
+                        <td class="especialidad">
+                            <div class="esp-icono">📊</div>
+                            <h3>Analítica y Reportes</h3>
+                            <p>Medimos cada acción con datos reales para tomar decisiones inteligentes y mejorar continuamente tus resultados.</p>
+                            <a href="#contacto" class="boton-plan">Consultar</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-                <input type="text" placeholder="Nombre" required>
+            <!-- PROCESO -->
+            <div class="bloque">
+                <h2>¿Cómo trabajamos?</h2>
+                <p>Un proceso claro y orientado a resultados:</p>
 
-                <input type="email" placeholder="Correo" required>
+                <table class="tabla-pasos">
+                    <tr>
+                        <td>
+                            <div class="paso-numero">1</div>
+                            <h3>Diagnóstico</h3>
+                            <p>Analizamos tu marca, competencia y mercado objetivo.</p>
+                        </td>
+                        <td>
+                            <div class="paso-numero">2</div>
+                            <h3>Estrategia</h3>
+                            <p>Diseñamos un plan personalizado con metas claras.</p>
+                        </td>
+                        <td>
+                            <div class="paso-numero">3</div>
+                            <h3>Ejecución</h3>
+                            <p>Lanzamos campañas y gestionamos cada canal.</p>
+                        </td>
+                        <td>
+                            <div class="paso-numero">4</div>
+                            <h3>Resultados</h3>
+                            <p>Medimos, optimizamos y reportamos el crecimiento.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-                <input type="tel" placeholder="Teléfono">
+            <!-- FORMULARIO -->
+            <div class="bloque" id="contacto">
+                <h2>Contáctanos</h2>
+                <p>Completa el formulario y te respondemos en menos de 24 horas:</p>
 
-                <label>Seleccione un plan:</label>
-                <select required>
-                    <option value="">-- Seleccione --</option>
-                    <option>Plan Básico (S/ 300)</option>
-                    <option>Plan Intermedio (S/ 600)</option>
-                    <option>Plan Avanzado (S/ 900)</option>
-                    <option>Plan Pro (S/ 1500)</option>
-                </select>
+                <form onsubmit="return falsoEnvio()">
+                    <table class="tabla-form">
+                        <tr>
+                            <td><label>Nombre completo *</label></td>
+                            <td><input type="text" placeholder="Tu nombre completo" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Correo electrónico *</label></td>
+                            <td><input type="email" placeholder="tu@correo.com" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Teléfono / WhatsApp</label></td>
+                            <td><input type="tel" placeholder="+51 900 000 000"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Especialidad de interés *</label></td>
+                            <td>
+                                <select required>
+                                    <option value="">-- Seleccione --</option>
+                                    <option>SEO & Posicionamiento</option>
+                                    <option>Redes Sociales</option>
+                                    <option>Email Marketing</option>
+                                    <option>Publicidad Digital (SEM)</option>
+                                    <option>Marketing de Contenido</option>
+                                    <option>Analítica y Reportes</option>
+                                    <option>Varios / No sé aún</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Mensaje</label></td>
+                            <td><textarea placeholder="Cuéntanos sobre tu proyecto..."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit">Enviar mensaje</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
 
-                <textarea placeholder="Mensaje"></textarea>
+        </main>
 
-                <button class="btn">Enviar</button>
-
-            </form>
-
-        </div>
-
+        <!-- FOOTER -->
         <footer>
-            <p>📞 +51 900 000 000</p>
-            <p>
-                <a href="#">Facebook</a> |
-                <a href="#">Instagram</a> |
-                <a href="#">TikTok</a>
-            </p>
+            <table class="tabla-footer">
+                <tr>
+                    <td>
+                        <span class="logo-icono">CA</span>
+                        <span class="logo-nombre">CreativeAds Studio</span>
+                        <p>Agencia de publicidad especializada en soluciones creativas para tu marca.</p>
+                    </td>
+                    <td>
+                        <h4>Servicios</h4>
+                        <p><a href="diseno.html">Diseño y Artes Gráficas</a></p>
+                        <p><a href="estudios.html">Estudios de Mercado</a></p>
+                        <p><a href="marketing.html">Marketing</a></p>
+                        <p><a href="merchandising.html">Merchandising</a></p>
+                    </td>
+                    <td>
+                        <h4>Contacto</h4>
+                        <p>📍 Arequipa, Perú</p>
+                        <p>📞 +51 900 000 000</p>
+                        <p>✉️ hola@creativeads.pe</p>
+                        <p>
+                            <a href="#">Facebook</a> &nbsp;|&nbsp;
+                            <a href="#">Instagram</a> &nbsp;|&nbsp;
+                            <a href="#">TikTok</a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <div class="footer-fondo">
+                <p>© 2026 CreativeAds Studio — Todos los derechos reservados</p>
+            </div>
         </footer>
 
         <script>
             function falsoEnvio() {
-                alert("Formulario enviado");
+                alert("¡Formulario enviado! Nos comunicaremos pronto.");
                 return false;
             }
         </script>
