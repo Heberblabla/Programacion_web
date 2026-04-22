@@ -1,0 +1,164 @@
+/* Selector de etiqueta */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Selector de clase */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Selector de ID */
+#main-header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#main-header h1 {
+    margin: 0;
+}
+
+/* Menú de navegación */
+nav {
+    background: #1a1a2e;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    padding: 5px ;
+}
+
+/* Banner principal (hero) */
+.hero {
+    background: url('https://picsum.photos/id/20/1100/300');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
+
+/* Secciones */
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #2c3e50;
+    border-left: 5px solid #e67e22;
+    padding-left: 15px;
+}
+
+/* Tarjetas de servicios */
+.servicios-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.servicio-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Tabla de precios */
+table {
+    width: 100%;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+}
+
+/* Formulario */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    width: auto;
+    background: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+/* Iframe y Marquee */
+iframe {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+marquee {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* Pie de página */
+footer {
+    background: #1a1a2e;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #e67e22;
+    text-decoration: none;
+}

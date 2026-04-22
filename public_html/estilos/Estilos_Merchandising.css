@@ -1,0 +1,398 @@
+/* =============================================
+   CreativeAds Studio — Merchandising
+   estilos.css
+   ============================================= */
+
+/* ----- GENERALES ----- */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 { margin-top: 0; }
+p { line-height: 1.7; margin: 0 0 8px 0; }
+a { text-decoration: none; color: inherit; }
+
+/* ----- HEADER ----- */
+header {
+  background-color: #1a5276;
+  padding: 0 40px;
+}
+
+.tabla-header {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-header td {
+  padding: 14px 0;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.logo-icono {
+  background-color: #2e86c1;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px 9px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.logo-nombre {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.td-nav {
+  text-align: center;
+}
+
+.td-nav a {
+  color: #cccccc;
+  margin-left: 12px;
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.td-nav a:hover {
+  color: white;
+  background-color: rgba(255,255,255,0.1);
+}
+
+.td-nav a.activo {
+  color: white;
+  background-color: #2e86c1;
+}
+
+/* ----- MARQUEE ----- */
+.barra-marquee {
+  background-color: #2e86c1;
+  color: white;
+  padding: 7px 0;
+  font-size: 13px;
+}
+
+/* ----- BANNER ----- */
+.tabla-banner {
+  width: 100%;
+  background-color: #1a5276;
+  border-collapse: collapse;
+}
+
+.tabla-banner td {
+  padding: 50px 40px;
+  vertical-align: middle;
+}
+
+.banner-texto { color: white; }
+
+.banner-tag {
+  color: #2e86c1;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.banner-texto h1 {
+  font-size: 46px;
+  margin-bottom: 14px;
+  line-height: 1.1;
+  color: white;
+}
+
+.banner-texto p { color: #aaaaaa; font-size: 15px; }
+
+.boton {
+  display: inline-block;
+  background-color: #2e86c1;
+  color: white;
+  padding: 11px 26px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.boton:hover { background-color: #1a5276; }
+
+.banner-imagen { text-align: right; width: 380px; }
+
+.banner-imagen img {
+  width: 360px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid rgba(255,255,255,0.1);
+}
+
+/* ----- BLOQUES (reemplazan section) ----- */
+.bloque {
+  background-color: white;
+  margin: 20px 40px;
+  padding: 30px 36px;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+}
+
+.bloque h2 {
+  color: #1a5276;
+  font-size: 22px;
+  border-left: 4px solid #2e86c1;
+  padding-left: 12px;
+  margin-bottom: 10px;
+}
+
+.bloque-gris { background-color: #f9f9f9; }
+
+/* ----- TABLA TARJETAS ----- */
+.tabla-tarjetas {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 14px 0;
+  margin-top: 18px;
+}
+
+.tabla-tarjetas td.tarjeta {
+  background-color: #f9f9f9;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 0;
+  text-align: center;
+  vertical-align: top;
+  overflow: hidden;
+  width: 25%;
+}
+
+.tabla-tarjetas td.tarjeta img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+}
+
+.tabla-tarjetas td.tarjeta h3 {
+  font-size: 14px;
+  color: #1a5276;
+  margin: 10px 10px 6px;
+}
+
+.tabla-tarjetas td.tarjeta p {
+  font-size: 12px;
+  color: #666666;
+  padding: 0 10px 12px;
+}
+
+.tabla-tarjetas td.tarjeta:hover {
+  border-color: #2e86c1;
+  background-color: #eaf4fb;
+}
+
+/* ----- TABLA GALERÍA ----- */
+.tabla-galeria {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 12px;
+  margin-top: 16px;
+}
+
+.tabla-galeria td {
+  background-color: #f9f9f9;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  width: 33%;
+}
+
+.tabla-galeria td img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+
+.tabla-galeria td p {
+  font-size: 12px;
+  color: #555555;
+  padding: 8px 0;
+  margin: 0;
+}
+
+/* ----- TABLA PRECIOS ----- */
+.tabla-precios {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.tabla-precios th {
+  background-color: #1a5276;
+  color: white;
+  padding: 11px 14px;
+  text-align: left;
+}
+
+.tabla-precios td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #dddddd;
+  color: #444444;
+}
+
+.tabla-precios tr:nth-child(even) td { background-color: #f9f9f9; }
+.tabla-precios tr:hover td { background-color: #eaf4fb; }
+
+/* ----- VIDEO ----- */
+.bloque iframe {
+  border: 3px solid #1a5276;
+  border-radius: 6px;
+  display: block;
+  margin-top: 14px;
+}
+
+/* ----- TABLA PASOS ----- */
+.tabla-pasos {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 14px 0;
+  margin-top: 18px;
+}
+
+.tabla-pasos td {
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+  vertical-align: top;
+  width: 25%;
+}
+
+.paso-numero {
+  background-color: #2e86c1;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  margin: 0 auto 10px;
+}
+
+.tabla-pasos h3 { color: #1a5276; font-size: 14px; margin-bottom: 5px; }
+.tabla-pasos p  { font-size: 12px; color: #666666; }
+
+/* ----- TABLA FORMULARIOS ----- */
+.tabla-form {
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.tabla-form td {
+  padding: 6px 10px 6px 0;
+  vertical-align: middle;
+  border: none;
+}
+
+.tabla-form td:first-child {
+  width: 200px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #1a5276;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+.tabla-form input,
+.tabla-form select,
+.tabla-form textarea {
+  width: 360px;
+  padding: 8px 11px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  box-sizing: border-box;
+}
+
+.tabla-form input:focus,
+.tabla-form select:focus,
+.tabla-form textarea:focus {
+  outline: none;
+  border-color: #2e86c1;
+}
+
+.tabla-form textarea { height: 85px; resize: vertical; }
+
+button {
+  background-color: #2e86c1;
+  color: white;
+  border: none;
+  padding: 10px 26px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+button:hover { background-color: #1a5276; }
+.boton-reclamo { background-color: #1a5276; }
+.boton-reclamo:hover { background-color: #154360; }
+
+/* ----- FOOTER ----- */
+footer {
+  background-color: #1a5276;
+  color: #aaaaaa;
+  margin-top: 30px;
+}
+
+.tabla-footer {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-footer td {
+  padding: 30px 40px;
+  vertical-align: top;
+  color: #aaaaaa;
+  border: none;
+  width: 33%;
+}
+
+.tabla-footer .logo-nombre { font-size: 15px; }
+
+.tabla-footer h4 {
+  color: white;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.tabla-footer p { font-size: 13px; margin-bottom: 5px; }
+.tabla-footer a:hover { color: #2e86c1; }
+
+.footer-fondo {
+  background-color: #154360;
+  text-align: center;
+  padding: 12px;
+  font-size: 12px;
+  color: #555555;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}

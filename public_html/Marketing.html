@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Agencia de Marketing Digital">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marketing</title>
+        <link rel="stylesheet" href="estilos/Estilos_Marketing.css">
+    </head>
+
+    <body>
+
+        <!-- LOGO -->
+        <div class="empresa">
+            <img src="images/logo.png" class="logo">
+        </div>
+
+        <header>
+            <marquee behavior="alternate">
+                <h1 class="titulo">🚀 Marketing Digital Profesional 🚀</h1>
+            </marquee>
+        </header>
+
+        <div class="linea-roja"></div>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#planes">Planes</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <img src="images/marketing1.jpg" class="banner">
+
+        <div class="container">
+
+            <h2 id="servicios">¿Cómo aplicamos el Marketing?</h2>
+
+            <p>
+                Nuestra empresa aplica estrategias de marketing enfocadas en atraer clientes,
+                analizar el mercado y aumentar las ventas mediante campañas digitales.
+            </p>
+
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/N-Q5G1V1oyo" allowfullscreen></iframe>
+            </div>
+
+            <!-- TABLA CON IMÁGENES -->
+            <h2>Tipos de Marketing</h2>
+
+            <table class="tabla">
+                <tr>
+                    <th>Tipo</th>
+                    <th>Imagen</th>
+                    <th>Descripción</th>
+                    <th>Ejemplo</th>
+                </tr>
+
+                <tr>
+                    <td>Marketing Digital</td>
+                    <td><img src="images/marketing2.jpg" class="img-tabla"></td>
+                    <td>Uso de internet y redes</td>
+                    <td>Facebook Ads</td>
+                </tr>
+
+                <tr>
+                    <td>Marketing de Contenido</td>
+                    <td><img src="images/marketing3.jpg" class="img-tabla"></td>
+                    <td>Creación de contenido</td>
+                    <td>Blogs</td>
+                </tr>
+
+                <tr>
+                    <td>Influencers</td>
+                    <td><img src="images/marketing4.jpg" class="img-tabla"></td>
+                    <td>Promoción con creadores</td>
+                    <td>Instagram</td>
+                </tr>
+
+                <tr>
+                    <td>SEO</td>
+                    <td><img src="images/marketing5.jpg" class="img-tabla"></td>
+                    <td>Posicionamiento web</td>
+                    <td>Google</td>
+                </tr>
+
+                <tr>
+                    <td>Tradicional</td>
+                    <td><img src="images/marketing6.jpg" class="img-tabla"></td>
+                    <td>Publicidad offline</td>
+                    <td>TV / Radio</td>
+                </tr>
+
+            </table>
+
+            <!-- PLANES 2x2 -->
+            <h2 id="planes">Planes de Marketing</h2>
+
+            <div class="planes">
+
+                <div class="plan">
+                    <h3>Básico</h3>
+                    <p class="precio">S/ 300</p>
+                    <ul>
+                        <li>Redes sociales</li>
+                        <li>3 publicaciones</li>
+                        <li>Diseño básico</li>
+                    </ul>
+                    <button class="btn">Contratar</button>
+                </div>
+
+                <div class="plan">
+                    <h3>Intermedio</h3>
+                    <p class="precio">S/ 600</p>
+                    <ul>
+                        <li>Publicidad digital</li>
+                        <li>5 publicaciones</li>
+                        <li>Análisis básico</li>
+                    </ul>
+                    <button class="btn">Contratar</button>
+                </div>
+
+                <div class="plan destacado">
+                    <h3>Avanzado</h3>
+                    <p class="precio">S/ 900</p>
+                    <ul>
+                        <li>Campañas completas</li>
+                        <li>Optimización</li>
+                        <li>Segmentación</li>
+                    </ul>
+                    <button class="btn">Recomendado</button>
+                </div>
+
+                <div class="plan">
+                    <h3>Pro</h3>
+                    <p class="precio">S/ 1500</p>
+                    <ul>
+                        <li>Gestión total</li>
+                        <li>Estrategias avanzadas</li>
+                        <li>Consultoría</li>
+                    </ul>
+                    <button class="btn">Solicitar</button>
+                </div>
+
+            </div>
+
+            <!-- FORM -->
+            <h2 id="contacto">Contáctanos</h2>
+
+            <form onsubmit="return falsoEnvio()">
+
+                <input type="text" placeholder="Nombre" required>
+
+                <input type="email" placeholder="Correo" required>
+
+                <input type="tel" placeholder="Teléfono">
+
+                <label>Seleccione un plan:</label>
+                <select required>
+                    <option value="">-- Seleccione --</option>
+                    <option>Plan Básico (S/ 300)</option>
+                    <option>Plan Intermedio (S/ 600)</option>
+                    <option>Plan Avanzado (S/ 900)</option>
+                    <option>Plan Pro (S/ 1500)</option>
+                </select>
+
+                <textarea placeholder="Mensaje"></textarea>
+
+                <button class="btn">Enviar</button>
+
+            </form>
+
+        </div>
+
+        <footer>
+            <p>📞 +51 900 000 000</p>
+            <p>
+                <a href="#">Facebook</a> |
+                <a href="#">Instagram</a> |
+                <a href="#">TikTok</a>
+            </p>
+        </footer>
+
+        <script>
+            function falsoEnvio() {
+                alert("Formulario enviado");
+                return false;
+            }
+        </script>
+
+    </body>
+</html>
